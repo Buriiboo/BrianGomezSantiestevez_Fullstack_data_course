@@ -49,3 +49,5 @@ DELETE FROM jokes WHERE rating < 5;
 
 SELECT * FROM jokes;
 
+
+

@@ -1,0 +1,35 @@
+{
+	"folders": {},
+	"connections": {
+		"duckdb_jdbc-192048840eb-703145c22b4d64f9": {
+			"provider": "generic",
+			"driver": "duckdb_jdbc",
+			"name": "Scripts",
+			"save-password": true,
+			"configuration": {
+				"database": "C:\\Users\\Burai\\OneDrive\\Documents\\GitHub\\BrianGomezSantiestevez_Fullstack_data_course\\db\\Scripts",
+				"url": "jdbc:duckdb:C:\\Users\\Burai\\OneDrive\\Documents\\GitHub\\BrianGomezSantiestevez_Fullstack_data_course\\db\\Scripts",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"folders": {},
+	"connections": {
+		"duckdb_jdbc-192048a8f6d-c0a4fd43020a735": {
+			"provider": "generic",
+			"driver": "duckdb_jdbc",
+			"name": "social_media.db",
+			"save-password": true,
+			"configuration": {
+				"database": "C:\\Users\\Burai\\OneDrive\\Documents\\GitHub\\BrianGomezSantiestevez_Fullstack_data_course\\db\\Scripts\\social_media.db",
+				"url": "jdbc:duckdb:C:\\Users\\Burai\\OneDrive\\Documents\\GitHub\\BrianGomezSantiestevez_Fullstack_data_course\\db\\Scripts\\social_media.db",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}
